@@ -41,3 +41,7 @@ f.close()
 f = open("tipekendaraan.txt", "w")
 f.write(tipe_kendaraan)
 f.close()
+
+#HASIL DATA
+print("Tipe Kendaraan Anda :", (tipe_kendaraan))
+print("Waktu Masuk Anda : ", (waktu_masuk))
