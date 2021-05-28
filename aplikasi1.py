@@ -31,3 +31,8 @@ elif tipe_kendaraan == 3 :
     tipe_kendaraan = "Roda 6"
 else :
     print("KENDARAAN TIDAK TERDAFTAR")
+    
+    #WRITE DATA WAKTU
+f = open("waktu.txt", "w")
+f.write(waktu_masuk)
+f.close()
