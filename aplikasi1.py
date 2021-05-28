@@ -36,3 +36,8 @@ else :
 f = open("waktu.txt", "w")
 f.write(waktu_masuk)
 f.close()
+
+#WRITE TIPE KENDARAAAN
+f = open("tipekendaraan.txt", "w")
+f.write(tipe_kendaraan)
+f.close()
