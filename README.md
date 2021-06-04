@@ -12,6 +12,10 @@ Berkas Flowchart Aplikasi 2
     Merupakan lampiran berupa diagram alir yang menjelaskan cara kerja program pada aplikasi 2.
 Berkas README.md
     Merupakan penjelasan singkat dari isi repository.
+Berkas aplikasi1.py
+    Merupakan berkas berisi coding program yang dijalankan pada aplikasi 1.
+Berkas Aplikasi2.py
+    Merupakan berkas berisi coding program yang dijalankan pada aplikasi 2.
 
 System Requirement
     1. Python Versi 3.9.5
