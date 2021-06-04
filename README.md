@@ -34,4 +34,4 @@ Penjelasan Singkat Program
     4. Proses perhitungan pembayaran (oleh komputer)
     5. Menampilkan jenis kendaraan, lama waktu parkir, dan jumlah yang harus dibayarkan,
     6. Melakukan proses pembayaran dengan scan barcode yang ada
-    7. Palang terbuka
+ 7. Palang terbuka
