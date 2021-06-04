@@ -18,7 +18,7 @@ System Requirement
     2. Modul PyQRCode
     3. Modul Pyzbar
     4. Modul Pillow
-    5. Modul pypng
+    5. Modul Pypng
     Cara menjalankan program adalah dengan instal modul-modul yang tertera di atas dan jalankan Aplikasi 1 kemudian 
     Aplikasi 2
 
