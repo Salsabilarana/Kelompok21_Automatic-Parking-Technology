@@ -1,19 +1,19 @@
 # Parking Automatic Technology
-Tugas Besar Praktikum Program Komputer 2021 Kelas C Kelompok 21
-Program ini dibuat untuk membuat sistem pembayaran parkir yang lebih efektif dan efisien serta dapat mengalkulasikan
-jam parkir dan tarif secara akurat.
+###Tugas Besar Praktikum Program Komputer 2021 Kelas C Kelompok 21
+###Program ini dibuat untuk membuat sistem pembayaran parkir yang lebih efektif dan efisien serta dapat mengalkulasikan
+###jam parkir dan tarif secara akurat.
 
-Repository
-Berkas 21_ADITYA_LAPORAN TUBES TAHAP 1
+##Repository
+###Berkas 21_ADITYA_LAPORAN TUBES TAHAP 1
     Merupakan lampiran berupa laporan pengerjaan Tugas Besar Programa Komputer tahap 1.
-Berkas Flowchart Aplikasi 1
+###Berkas Flowchart Aplikasi 1
     Merupakan lampiran berupa diagram alir yang menjelaskan cara kerja program pada aplikasi 1.
-Berkas Flowchart Aplikasi 2
+###Berkas Flowchart Aplikasi 2
     Merupakan lampiran berupa diagram alir yang menjelaskan cara kerja program pada aplikasi 2.
-Berkas README.md
+###Berkas README.md
     Merupakan penjelasan singkat dari isi repository.
 
-System Requirement
+###System Requirement
     1. Python Versi 3.9.5
     2. Modul PyQRCode
     3. Modul Pyzbar
@@ -22,7 +22,7 @@ System Requirement
     Cara menjalankan program adalah dengan instal modul-modul yang tertera di atas dan jalankan Aplikasi 1 kemudian 
     Aplikasi 2
 
-Penjelasan Singkat Program
+###Penjelasan Singkat Program
     A. Aplikasi 1
     1. Menginputkan jenis kendaraan
     2. jenis kendaraan dan waktu saat masuk tercatat dan tersimpan dalam bentuk .txt
