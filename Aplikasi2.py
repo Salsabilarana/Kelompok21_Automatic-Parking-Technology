@@ -1,6 +1,6 @@
+print("================APLIKASI 2===================")
 #IMPORT WAKTU
 from datetime import datetime as dtm
-
 #IMPORT MODUL UNTUK READ BARCODE
 from pyzbar.pyzbar import decode
 from PIL import Image
