@@ -58,3 +58,29 @@ if tipe_kendaraan == "Roda 2" :
 elif tipe_kendaraan == "Roda 4" :
     if lama_parkir <= 1 :
         total_yang_harus_dibayar = 6000
+    elif lama_parkir <= 5 :
+        total_yang_harus_dibayar = 6000+((lama_parkir-1)*2000)
+    elif lama_parkir <= 12 :
+        total_yang_harus_dibayar = 25000
+    elif lama_parkir <= 24 :
+        total_yang_harus_dibayar = 55000
+    ##biaya parkir roda 4 jika sudah melewati 1 hari
+    else :
+        ###perhitungan jam hari yang sudah terlewati (misal membaca 4 jam pada 2 HARI 4 JAM)
+        sub_lama_parkir = lama_parkir-(hari*24)
+        ####perhitungan biaya jam parkir yang akan ditambah dengan banyaknya hari menginap
+        if sub_lama_parkir <= 1:
+            sub_hari = 6000
+        elif sub_lama_parkir <= 5:
+            sub_hari = 6000+((sub_lama_parkir-1)*2000)
+        elif sub_lama_parkir <= 12:
+            sub_hari = 25000
+        elif sub_lama_parkir <= 24:
+            sub_hari = 55000
+        else :
+            sub_hari = 50000
+        ###total yang harus dibayar
+        print(hari, "Hari Menginap + ", sub_lama_parkir, "Jam Parkir")
+        print(hari*50000, "+", sub_hari)
+        total_yang_harus_dibayar = hari * 50000+sub_hari
+
