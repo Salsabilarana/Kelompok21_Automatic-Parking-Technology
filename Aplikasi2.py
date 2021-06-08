@@ -117,3 +117,21 @@ else :
 #MENAMPILKAN TOTAL HARGA PARKIR YANG HARUS DIBAYAR
 print()
 print("\033[1;32;40m Total Yang Harus Dibayar : RP", total_yang_harus_dibayar)
+print("\033[1;32;40m Lama Parkir :",hitung_lama_parkir)
+print("\033[1;32;40m Total Yang Harus Dibayar : RP", total_yang_harus_dibayar)
+
+#scan qr code pembayaran
+try:
+    bayar = decode(Image.open('pembayaran.png'))
+    setelah_bayar = 1
+except:
+    setelah_bayar = 0
+#kondisi gerbang
+if setelah_bayar == 1:
+    palang = ("Palang Terbuka")
+else:
+    palang=("Mohon Bayar Terlebih Dahulu")
+print()
+#Palang Terbuka
+print("             ", palang)
+print()
