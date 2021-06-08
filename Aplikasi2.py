@@ -33,6 +33,7 @@ else :
 hari1 = waktu_masuk
 hari2 = waktu_keluar
 total_hari = hari2 - hari1
+
 hari = total_hari.days
 
 #HASIL DATA YANG DIPEROLEH DARI SCAN
@@ -45,3 +46,15 @@ print("Lama Parkir Anda : ", hitung_lama_parkir)
 #######print("Lama Parkir Yang Harus Dibayar : ", lama_parkir,"Jam")
 print()
 print("==========================================================")
+
+#BIAYA PARKIR RODA 2
+if tipe_kendaraan == "Roda 2" :
+    if lama_parkir <= 24 :
+        total_yang_harus_dibayar = 3000
+    else :
+        total_yang_harus_dibayar = (hari * 25000)
+
+#BIAYA PARKIR RODA 4
+elif tipe_kendaraan == "Roda 4" :
+    if lama_parkir <= 1 :
+        total_yang_harus_dibayar = 6000
